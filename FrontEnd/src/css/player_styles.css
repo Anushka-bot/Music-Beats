@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+:root {
+  font-family: "Roboto", sans-serif !important;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+/* .formv {
+  position: relative;
+  z-index: 1;
+  border-radius: 16px;
+  background-image: url("http://www.fellowshipbbc.org/wp-content/uploads/2013/06/Semitransparent-white-background-20-percent-opacity.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+} */
+.text-grad {
+  background: linear-gradient(90deg, #905960, #241015, #905960);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-mg {
+  /* margin-top: 8em; */
+  /*border: 1px solid black; */
+  width: 1100px;
+  height: 400px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(245, 245, 245, 0.6);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.message {
+  font-size: 2.15em;
+  font-weight: 600;
+  color: #455a64;
+  text-align: center;
+}
+
+.contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 100%;
+  position: relative;
+}
+
+.song-info {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.song-title {
+  font-family: "Chela One", cursive;
+  font-size: 2.75rem;
+  font-weight: 600;
+  text-align: center;
+  opacity: 1;
+}
+
+.song-artists {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  opacity: 1;
+}
+
+#controls {
+  position: absolute;
+  bottom: 0%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#change-track {
+  display: inline-block;
+  margin-left: 14px;
+}
+
+#track-number {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+}
+.button {
+  color: black;
+  width: 43px;
+  height: 43px;
+}
+#credits {
+  position: absolute;
+  bottom: 0;
+  padding-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+#credit-text {
+  margin: 0;
+  padding-top: 0.05em;
+  font-weight: 500;
+}
+
+#credit-text a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+#lines {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  margin: 2px;
+  background-color: rgb(255, 237, 202);
+}
+
+#equalizer {
+  position: relative;
+  width: 350px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vertical-lines {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.vertical {
+  width: 5px;
+  height: 100px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #ec909c, #c34968, #ec7c8b);
+  animation-direction: alternate-reverse;
+  margin: 1px;
+}
+
+@keyframes equalizer {
+  from {
+    height: 43%;
+  }
+
+  to {
+    height: 10px;
+  }
+}
+.share {
+  /* align-items: flex-end; */
+  margin-left: 170px;
+}
